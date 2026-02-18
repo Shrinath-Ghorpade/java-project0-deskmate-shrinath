@@ -4,9 +4,9 @@ package com.deskmate.main;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.deskmate.enums.*;
-import com.deskmate.exception.*;
-import com.deskmate.utils.*;
+import com.deskmate.main.enums.*;
+import com.deskmate.main.exception.*;
+import com.deskmate.main.utils.*;
 
 public class App {
     private static final Logger log = LogManager.getLogger(App.class);
