@@ -10,7 +10,6 @@ import com.deskmate.main.dao.impl.JdbcReportDao;
 import com.deskmate.main.service.BookingService;
 import com.deskmate.main.service.DeskService;
 import com.deskmate.main.service.ReportService;
-import com.deskmate.main.dao.*;
 
 public class AppConfig {
 
@@ -33,4 +32,5 @@ public class AppConfig {
         ReportService reportService = new ReportService(reportDao);
         return new ReportController(reportService);
     }
+
 }
