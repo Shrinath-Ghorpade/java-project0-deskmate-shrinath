@@ -1,4 +1,4 @@
-package com.deskmate.enums;
+package com.deskmate.main.enums;
 
 public enum PaymentMode {
     CASH, CARD, UPI
